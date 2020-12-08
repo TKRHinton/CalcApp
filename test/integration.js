@@ -16,3 +16,16 @@ suite("Integration tests for coin flip system", function() {
   });
 
 });
+
+suite("Testing Sum function", function() {
+
+  test("Test GET /sum", function() {
+    let app = server.app;
+
+    chai.request(app).get("/sum").end(function(error, response) {
+      chai.assert.equal(response.status, 200, "Wrong status code");
+      chai.assert.include("5", response.text, "Wrong response text");
+    });
+  });
+
+});
