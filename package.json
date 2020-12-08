@@ -1,0 +1,23 @@
+{
+  "name": "week-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -ui tdd test/",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKRHinton/CalcApp.git"
+  },
+  "author": "thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TKRHinton/CalcApp/issues"
+  },
+  "homepage": "https://github.com/TKRHinton/CalcApp#readme"
+}
